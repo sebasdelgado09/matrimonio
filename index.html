@@ -1,31 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi página web</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Evento Social</title>
+  <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Enlaza tu archivo CSS personalizado -->
 </head>
 <body>
-    <header>
-        <h1>Bienvenido sapos hpts son 500 k para la festividades de agosto</h1>
-    </header>
+  <header>
+    <h1>Nombre del Evento Social</h1>
+    <img src="logo-evento.png" alt="Logo del Evento">
+  </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
+  <section id="informacion">
+    <h2>Información del Evento</h2>
+    <p>Fecha: DD/MM/AAAA</p>
+    <p>Hora: HH:MM</p>
+    <p>Lugar: Dirección del Lugar</p>
+    <p>Descripción: Breve descripción del evento</p>
+    <p>Precio: $XX</p>
+  </section>
 
-    <main>
-        <section>
-            <h2>Acerca de mí</h2>
-            <p>Soy la monda entonces ustedes valen verga.</p>
-        </section>
-    </main>
+  <section id="registro">
+    <h2>Regístrate para el Evento</h2>
+    <p>Rellena el siguiente formulario para asegurar tu lugar en el evento:</p>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
 
-    <footer>
-        <p>Derechos de autor &copy; 2023 Mi página web</p>
-    </footer>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <section id="programa">
+    <h2>Programa del Evento</h2>
+    <ul>
+      <li>Hora 1 - Actividad 1</li>
+      <li>Hora 2 - Actividad 2</li>
+      <li>Hora 3 - Actividad 3</li>
+      <!-- Agrega más actividades según el programa del evento -->
+    </ul>
+  </section>
+
+  <section id="ponentes">
+    <h2>Ponentes Destacados</h2>
+    <ul>
+      <li>
+        <img src="ponente1.jpg" alt="Foto del Ponente 1">
+        <h3>Nombre del Ponente 1</h3>
+        <p>Descripción del ponente 1</p>
+      </li>
+      <li>
+        <img src="ponente2.jpg" alt="Foto del Ponente 2">
+        <h3>Nombre del Ponente 2</h3>
+        <p>Descripción del ponente 2</p>
+      </li>
+      <!-- Agrega más ponentes según el evento -->
+    </ul>
+  </section>
+
+  <footer>
+    <p>Para más información, contáctanos al email: info@evento.com</p>
+    <ul class="redes-sociales">
+      <li><a href="https://www.facebook.com/evento" target="_blank"><img src="facebook.png" alt="Facebook"></a></li>
+      <li><a href="https://www.instagram.com/evento" target="_blank"><img src="instagram.png" alt="Instagram"></a></li>
+      <!-- Agrega enlaces a tus redes sociales -->
+    </ul>
+  </footer>
 </body>
 </html>
