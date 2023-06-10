@@ -1,0 +1,151 @@
+<!DOCTYPE h<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Matrimonio</title>
+  <style>
+    /* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Estilos específicos para cada sección */
+  
+  header {
+    background-color: #10325d;
+    padding: 20px;
+    text-align: center;
+  }
+    header img {
+  width: 200px; /* Ancho de la imagen */
+  height: auto; /* Altura ajustada automáticamente para mantener la proporción */
+      border-radius: 50%;
+}
+
+  
+  #informacion, #registro, #programa, #ponentes {
+    background-color: #F8F9FA;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #registro form {
+    margin-top: 10px;
+  }
+  
+  #registro input[type="text"],
+  #registro input[type="email"],
+  #registro input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  footer {
+    background-color: #2a2b88;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .redes-sociales {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .redes-sociales li {
+    margin-right: 10px;
+  }
+  
+  /* Estilos adicionales */
+  
+  /* Agrega aquí estilos adicionales según tus preferencias y necesidades */
+  
+  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Enlaza tu archivo CSS personalizado -->
+</head>
+<body>
+  <header>
+    <h1>Un dia especial </h1>
+    <img src="https://media.istockphoto.com/id/1193555761/es/foto/novia-y-novio-cogidos-de-la-mano.jpg?s=612x612&w=0&k=20&c=pRpzKnednDxX2boNAkNLzHLMBD9r3TivyHcDUNZtRyk=" alt="Logo del Evento">
+  </header>
+
+  <section id="informacion">
+    <h2>Información del Evento</h2>
+    <p>Fecha: 14/10/2023</p>
+    <p>Hora: 12:00</p>
+    <p>Lugar: Piede cuesta Santander</p>
+    <p>Descripción: Confrimanos tu asistencia para enviarte todo los detalles</p>
+    <p>Contacto : 3164842294/3173796285</p>
+  </section>
+
+  <section id="registro">
+    <h2>Regístrate para el Evento</h2>
+    <p>Rellena el siguiente formulario para asegurar tu lugar en el evento:</p>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <section id="programa">
+    <h2>Programa del Evento</h2>
+    <ul>
+      <li>Hora 1 - Rumbita</li>
+      <li>Hora 2 - llegan las bandidas</li>
+      <li>Hora 3 - 4 babys</li>
+      <!-- Agrega más actividades según el programa del evento -->
+    </ul>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0JoHqmlqE0W0i9prt6kcHR?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><controls autoplay> 
+  </section>
+
+  <section id="ponentes">
+    <h2>Ponentes Destacados</h2>
+    <ul>
+      <li>
+        <img src="ponente1.jpg" alt="Foto del Ponente 1">
+        <h3>Nombre del Ponente 1</h3>
+        <p>Descripción del ponente 1</p>
+      </li>
+      <li>
+        <img src="ponente2.jpg" alt="Foto del Ponente 2">
+        <h3>Nombre del Ponente 2</h3>
+        <p>Descripción del ponente 2</p>
+      </li>
+      <!-- Agrega más ponentes según el evento -->
+    </ul>
+  </section>
+
+  <footer>
+    <p>Para más información, contáctanos al email: info@evento.com</p>
+    <ul class="redes-sociales">
+      <li><a href="https://www.facebook.com/evento" target="_blank"><img src="facebook.png" alt="Facebook"></a></li>
+      <li><a href="https://www.instagram.com/evento" target="_blank"><img src="instagram.png" alt="Instagram"></a></li>
+      <!-- Agrega enlaces a tus redes sociales -->
+    </ul>
+  </footer>
+</body>
+</html>
